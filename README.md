@@ -2,7 +2,7 @@
 
 ##### This is a template for writing assembly using NASM.
 
-It has a template "main" file, makefile, and a few helper functions to help with I/O without having to use Linux syscalls explicitly.
+It has a template "main" file, makefile, and a few helper functions "IO.inc" to help with I/O without having to use Linux syscalls explicitly.
 
 I wrote these functions for the [AES Encryption](https://github.com/Satharus/AES-Encryption) project, so that's why some functions are oddly specific.
 
